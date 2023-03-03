@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class Demo {
 
+
     @Test
     public void methodTesting(){
        // assertEquals(2,3);
@@ -24,5 +25,13 @@ public class Demo {
     public void test3(){
         assertTrue("abc".length()==3);
 
+    }
+    @Test
+    public void Test4(){
+        assertFalse(false);
+    }
+    @Test
+    public void Test5(){
+        assertFalse(5==9);
     }
 }
