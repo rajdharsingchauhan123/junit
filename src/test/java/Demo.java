@@ -44,4 +44,5 @@ public class Demo {
         assertFalse(stringUtilities.isCapitalized(s1));
         assertTrue(stringUtilities.isCapitalized(s));
     }
+
 }
