@@ -5,6 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class Demo {
     @Test
     public void methodTesting(){
-        assertEquals(2,2);
+        assertEquals(2,3);
     }
 }
