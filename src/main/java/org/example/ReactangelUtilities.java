@@ -6,6 +6,6 @@ public class ReactangelUtilities {
 
     }
     static public int getPerimeter(int height,int width){
-        return height+width;
+        return 2*(height+width);
     }
 }
